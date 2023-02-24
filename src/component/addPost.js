@@ -60,7 +60,7 @@ export default function AddPost(props) {
             placeholder='Description'
         />
         <button id="post-button" onClick={()=>{
-            console.log(props.initpost.post)
+            navigate('/post')
         }}>post</button>
     </form>
 }
