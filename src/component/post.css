@@ -1,0 +1,39 @@
+header{
+    margin: 0px 50px;
+    display: flex;
+    justify-content:space-between;
+}
+#logo{
+    display: flex;
+    justify-content: space-between;
+    /* width: 200px; */
+}
+
+.post{
+    padding: 20px;
+    width: 500px;
+    display: block;
+    margin: 10px 400px;
+    border: 1px solid rgb(110, 104, 104);
+    border-radius: 5px;
+}
+
+#date{
+    position: relative;
+    float: right;
+}
+form{
+    margin: 50px auto;
+    width: 450px;
+    border: 1px solid #ccc;
+    padding: 5px 15px;
+    justify-content: space-evenly;
+    
+}
+.block{
+    display: block;
+}
+
+#post-button{
+    text-align: center;
+}
